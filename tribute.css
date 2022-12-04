@@ -33,3 +33,26 @@ h1 {
 h1{
     color: white;
 }
+@media (max-width:1200px) {
+    .container{
+        flex-flow: column;
+        padding:20px;
+        justify-content: center;
+    }
+
+    .container .profile{
+        position: static;
+        border-radius: center;
+        box-shadow: var(--box-shadow);
+        border-right: none;
+        margin:0 auto;
+        margin-bottom: 15px; ;
+    }
+    .container .information{
+       
+        border-radius: 5px;
+        box-shadow: var(--box-shadow);
+        padding: 20px;
+
+    }
+}
